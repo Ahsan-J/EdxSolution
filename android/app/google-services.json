@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "152127705179",
+    "firebase_url": "https://edxsolution.firebaseio.com",
+    "project_id": "edxsolution",
+    "storage_bucket": "edxsolution.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152127705179:android:8181dcc8405f40aafdef7e",
+        "android_client_info": {
+          "package_name": "com.edxsolution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152127705179-20hcse7kosmeiha216i7fclgm5davtk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBta5pGE9hWDrZCkJiFn493CqIQEAV6dKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152127705179-20hcse7kosmeiha216i7fclgm5davtk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

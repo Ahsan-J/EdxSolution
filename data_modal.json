@@ -1,0 +1,103 @@
+{
+    "generalOverview": [
+        {
+            "count": 96,
+            "category": "Total"
+        },
+        {
+            "count": 11,
+            "category": "Open"
+        },
+        {
+            "count": 85,
+            "category": "Addressed"
+        },
+        {
+            "count": 0,
+            "category": "Monitoring"
+        }
+    ],
+    "byMeter": {
+        "Addressed": [
+            2,
+            66,
+            32,
+            76
+        ],
+        "Pending": [
+            9,
+            88,
+            43,
+            23
+        ],
+        "xAxis": ["2014", "2015", "2016", "2017"]
+    },
+    "bySeverity": [
+        {
+            "count": 96,
+            "category": "High"
+        },
+        {
+            "count": 11,
+            "category": "Medium"
+        },
+        {
+            "count": 85,
+            "category": "Low"
+        },
+        {
+            "count": 0,
+            "category": "FYI"
+        }
+    ],
+    "byType": [
+        {
+            "type": "Phising",
+            "count": 1,
+            "values": [
+                1,
+                1
+            ]
+        },
+        {
+            "type": "Cyber-evil twin site",
+            "count": 1,
+            "values": [
+                1,
+                1
+            ]
+        },
+        {
+            "type": "Cybersquatting",
+            "count": 1,
+            "values": [
+                1,
+                1
+            ]
+        },
+        {
+            "type": "Social Media Fraud",
+            "count": 1,
+            "values": [
+                1,
+                1
+            ]
+        },
+        {
+            "type": "Hacker Attacks",
+            "count": 1,
+            "values": [
+                1,
+                1
+            ]
+        },
+        {
+            "type": "Bank Vulnerabilities",
+            "count": 1,
+            "values": [
+                1,
+                1
+            ]
+        }
+    ]
+}
