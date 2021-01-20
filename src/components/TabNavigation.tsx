@@ -18,7 +18,7 @@ interface propTypes {
 const Tab = createMaterialTopTabNavigator();
 
 // eslint-disable-next-line prettier/prettier
-const TabNavigation: React.SFC<propTypes> = React.memo((props: React.PropsWithChildren<propTypes>) => {
+const TabNavigation: React.FC<propTypes> = React.memo((props: React.PropsWithChildren<propTypes>) => {
     const theme = useSelector((store: RootState) => store.theme);
     return (
       <Tab.Navigator

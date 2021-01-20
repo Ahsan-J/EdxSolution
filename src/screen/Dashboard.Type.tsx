@@ -13,7 +13,7 @@ interface propType {
 }
 
 // eslint-disable-next-line prettier/prettier
-const Type: React.SFC<propType> = React.memo((props: React.PropsWithChildren<propType>) => {
+const Type: React.FC<propType> = React.memo((props: React.PropsWithChildren<propType>) => {
     const styles = useStyles();
     const [isRefreshing, setRefreshState] = useState<boolean>(false);
     const [updatingTime, setUpdateTime] = useState<Moment>(moment());

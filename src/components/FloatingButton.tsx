@@ -14,7 +14,7 @@ interface propTypes {
 }
 
 // eslint-disable-next-line prettier/prettier
-const FloatingButton: React.SFC<propTypes> = React.memo((props: React.PropsWithChildren<propTypes>) => {
+const FloatingButton: React.FC<propTypes> = React.memo((props: React.PropsWithChildren<propTypes>) => {
     const styles = useStyles({size: props.size, color: props.color});
     // eslint-disable-next-line prettier/prettier
     const touchOpacity = useSelector((store: RootState) => store.theme.touchOpacity);

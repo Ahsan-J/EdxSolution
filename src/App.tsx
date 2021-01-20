@@ -12,7 +12,7 @@ import SplashScreen from 'react-native-splash-screen';
 
 interface propType {}
 
-const App: React.SFC<propType> = React.memo(() => {
+const App: React.FC<propType> = React.memo(() => {
   const styles = useStyles();
 
   useEffect(() => {

@@ -15,7 +15,7 @@ interface propType {
 }
 
 // eslint-disable-next-line prettier/prettier
-const Meter: React.SFC<propType> = React.memo((props: React.PropsWithChildren<propType>) => {
+const Meter: React.FC<propType> = React.memo((props: React.PropsWithChildren<propType>) => {
     const styles = useStyles();
     const theme = useSelector((store: RootState) => store.theme);
     const dispatch = useDispatch();

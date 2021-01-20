@@ -18,7 +18,7 @@ interface propTypes {
 }
 
 // eslint-disable-next-line prettier/prettier
-const DashboardFeatureItem: React.SFC<propTypes> = React.memo(
+const DashboardFeatureItem: React.FC<propTypes> = React.memo(
   (props: React.PropsWithChildren<propTypes>) => {
     const styles = useStyles({
       color: props.color,

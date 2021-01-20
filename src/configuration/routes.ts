@@ -2,7 +2,7 @@ import Dashboard from '../screen/Dashboard';
 
 export interface IRouteType {
   name: string;
-  component: React.SFC;
+  component: React.FC;
   label?: string;
 }
 

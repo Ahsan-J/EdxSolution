@@ -15,7 +15,7 @@ interface propTypes {
 }
 
 // eslint-disable-next-line prettier/prettier
-const Header: React.SFC<propTypes> = React.memo((props: React.PropsWithChildren<propTypes>) => {
+const Header: React.FC<propTypes> = React.memo((props: React.PropsWithChildren<propTypes>) => {
     const styles = useStyles();
     // eslint-disable-next-line prettier/prettier
     const touchOpacity = useSelector((store: RootState) => store.theme.touchOpacity);

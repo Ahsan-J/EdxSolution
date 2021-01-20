@@ -39,7 +39,7 @@ const TabRoutes: Array<IRouteType> = [
   },
 ];
 
-const Dashboard: React.SFC<propType> = React.memo(() => {
+const Dashboard: React.FC<propType> = React.memo(() => {
   const styles = useStyles();
   const [subText, setText] = useState<string>('');
   const activeTab = useSelector((store: RootState) => store.app.activeTab);

@@ -14,7 +14,7 @@ interface propTypes {
 }
 
 // eslint-disable-next-line prettier/prettier
-const CustomLegend: React.SFC<propTypes> = React.memo((props: React.PropsWithChildren<propTypes>) => {
+const CustomLegend: React.FC<propTypes> = React.memo((props: React.PropsWithChildren<propTypes>) => {
     const styles = useStyles();
     const theme = useSelector((store: RootState) => store.theme);
 

@@ -11,7 +11,7 @@ import {RootState} from '../redux/types';
 
 interface propType {}
 
-const CustomDrawerContent: React.SFC<propType> = React.memo(() => {
+const CustomDrawerContent: React.FC<propType> = React.memo(() => {
   const [activeRoute, setActive] = useState<string>();
   const styles = useStyles();
   // eslint-disable-next-line prettier/prettier
@@ -58,7 +58,7 @@ const CustomDrawerContent: React.SFC<propType> = React.memo(() => {
 });
 
 // eslint-disable-next-line prettier/prettier
-const AppDrawer: React.SFC<propType> = React.memo((props: React.PropsWithChildren<propType>) => (
+const AppDrawer: React.FC<propType> = React.memo((props: React.PropsWithChildren<propType>) => (
     <DrawerLayout
       ref={drawerRef}
       keyboardDismissMode="on-drag"

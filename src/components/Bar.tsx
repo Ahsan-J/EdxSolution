@@ -24,7 +24,7 @@ interface propTypes {
 }
 
 // eslint-disable-next-line prettier/prettier
-const Bar: React.SFC<propTypes> = React.memo((props: React.PropsWithChildren<propTypes>) => {
+const Bar: React.FC<propTypes> = React.memo((props: React.PropsWithChildren<propTypes>) => {
     const theme = useSelector((store: RootState) => store.theme);
     const data: BarData = {
       dataSets: _.map(

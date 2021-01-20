@@ -22,7 +22,7 @@ interface propTypes {
 }
 
 // eslint-disable-next-line prettier/prettier
-const Pie: React.SFC<propTypes> = React.memo((props: React.PropsWithChildren<propTypes>) => {
+const Pie: React.FC<propTypes> = React.memo((props: React.PropsWithChildren<propTypes>) => {
     const theme = useSelector((store: RootState) => store.theme);
     const styles = useStyles();
 

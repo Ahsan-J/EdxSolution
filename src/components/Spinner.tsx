@@ -23,7 +23,7 @@ export default React.memo(() => {
       <ActivityIndicator size={moderateScale(60)} color={theme.colors.white} />
     </View>
   );
-}) as React.SFC<propTypes>;
+}) as React.FC<propTypes>;
 
 const useStyles = () => {
   return StyleSheet.create({

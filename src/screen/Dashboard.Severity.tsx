@@ -21,7 +21,7 @@ interface propType {
 }
 
 // eslint-disable-next-line prettier/prettier
-const Severity: React.SFC<propType> = React.memo((props: React.PropsWithChildren<propType>) => {
+const Severity: React.FC<propType> = React.memo((props: React.PropsWithChildren<propType>) => {
     const styles = useStyles();
     const theme = useSelector((store: RootState) => store.theme);
     const [isRefreshing, setRefreshState] = useState<boolean>(false);

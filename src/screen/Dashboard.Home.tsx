@@ -21,7 +21,7 @@ interface propType {
 }
 
 // eslint-disable-next-line prettier/prettier
-const Home: React.SFC<propType> = React.memo((props: React.PropsWithChildren<propType>) => {
+const Home: React.FC<propType> = React.memo((props: React.PropsWithChildren<propType>) => {
     const styles = useStyles();
     const dispatch = useDispatch();
     const theme = useSelector((store: RootState) => store.theme);

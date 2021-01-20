@@ -15,7 +15,7 @@ interface propType {
 }
 
 // eslint-disable-next-line prettier/prettier
-const Navigation: React.SFC<propType> = React.memo((props: React.PropsWithChildren<propType>) => {
+const Navigation: React.FC<propType> = React.memo((props: React.PropsWithChildren<propType>) => {
     const dispatch = useDispatch();
     return (
       <NavigationContainer

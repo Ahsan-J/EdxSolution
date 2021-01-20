@@ -17,7 +17,7 @@ interface propTypes {
 }
 
 // eslint-disable-next-line prettier/prettier
-const TypeListItem: React.SFC<propTypes> = React.memo((props: React.PropsWithChildren<propTypes>) => {
+const TypeListItem: React.FC<propTypes> = React.memo((props: React.PropsWithChildren<propTypes>) => {
     const styles = useStyles({color: props.color});
     const theme = useSelector((store: RootState) => store.theme);
 
